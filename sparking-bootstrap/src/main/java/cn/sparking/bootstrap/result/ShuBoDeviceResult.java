@@ -183,6 +183,7 @@ public class ShuBoDeviceResult implements Serializable {
      * toString.
      * @return Object String
      */
+    @Override
     public String toString() {
         return "ShuBoDeviceResult{" + "code=" + code + ", message=" + message + '\'' + ", data=" + data + '}';
     }
@@ -192,6 +193,7 @@ public class ShuBoDeviceResult implements Serializable {
      * @param obj object
      * @return {@linkplain boolean}
      */
+    @Override
     public boolean equals(final Object obj) {
         if (this == obj) {
             return true;
